@@ -26,6 +26,7 @@ If you have any ideas or would like to develop a new theme, you are welcome to s
 
 <div class="demo-theme-preview">
   <a data-theme="vue">vue.css</a>
+  <a data-theme="green">green.css</a>
   <a data-theme="buble">buble.css</a>
   <a data-theme="dark">dark.css</a>
   <a data-theme="pure">pure.css</a>
