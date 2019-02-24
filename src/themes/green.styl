@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600')
 
-$color-primary = #42b983
+$color-primary = #43853d
 $color-bg = #fff
 $color-text = #34495e
 $sidebar-width = 300px
@@ -13,29 +13,30 @@ body
 
 /* sidebar */
 .sidebar
-  background-color $color-bg
-  color #364149
+  background-color #333
+  color #fff
 
   li
     margin 6px 0 6px 0
 
   ul li a
-    color #505d6b
+    color #ccc
     font-size 14px
     font-weight normal
     overflow hidden
     text-decoration none
     text-overflow ellipsis
     white-space nowrap
+    transition opacity .2s ease
 
     &:hover
-      text-decoration underline
+      color #fff
 
   ul li ul
     padding 0
 
   ul li.active > a
-    border-right 2px solid
+    border-bottom 1px solid
     color var(--theme-color, $color-primary)
     font-weight 600
 
